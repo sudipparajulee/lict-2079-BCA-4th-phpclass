@@ -13,7 +13,7 @@ if($conn->connect_error){
 }
 
 //query to select data
-$qry = "SELECT name,phone,email,address FROM students WHERE address='Chitwan'";
+$qry = "SELECT name,phone,email,address FROM students";
 
 //execute query
 $result = $conn->query($qry);
