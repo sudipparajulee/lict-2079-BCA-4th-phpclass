@@ -2,6 +2,16 @@
     <head>
         <title>Ajax with php and mysql</title>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <style>
+            .searchrow {
+                background-color: #f2f2f2;
+                padding: 10px;
+                margin: 5px;
+            }
+            .searchrow:hover {
+                background-color: #e2e2e2;
+            }
+        </style>
     </head>
     <body>
         <h1>Ajax with php and mysql</h1>
