@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>jQuery Example</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        <h1>jQuery Example</h1>
+        <button id="btn">Click Me</button>
+        <p id="demo">Hello World!</p>
+        <script>
+            $(document).ready(function(){
+                $("#btn").click(function(){
+                    // $("#demo").text("Hello jQuery!");
+                    // $("#demo").hide();
+                    // $("#demo").toggle();
+                    // $("#demo").fadeOut();
+                    // $("#demo").fadeToggle();
+                    // $("#demo").slideUp();
+                    // $("#demo").slideToggle();
+                    $("#demo").css("color", "red");
+                    $("#demo").css("font-weight", "bold");
+                });
+            });
+        </script>
+    </body>
+</html>
